@@ -77,11 +77,14 @@ python desktop_app.py
 
 <img width="800" src="https://github.com/user-attachments/assets/a658291c-12c1-487c-baad-05f4608d2cc0" />
 
+
 Capture Tab: Real-time packet parsing and metadata extraction.
 <img width="800" src="https://github.com/user-attachments/assets/6b2ccf43-4bab-46ca-a775-2a76c0888f4d" />
 
+
 Analysis Tab: Protocol distribution and Top Talker metrics.
 <img width="800" src="https://github.com/user-attachments/assets/19f7be0c-a282-4e6e-b9cd-6d5b5fdbdcf0" />
+
 
 Detection Tab: Z-Score and SYN Flood alert logs.
 <img width="800" src="https://github.com/user-attachments/assets/19629332-ca71-4df4-8d18-d0a5a8cfa072" />
