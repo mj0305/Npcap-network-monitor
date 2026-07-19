@@ -74,18 +74,20 @@ python desktop_app.py
 
 
 📊 Dashboard Previews
+<img src="docs/Dashboard_Previews.jpg" width="80%">
 
-![Dashboard Previews](docs/Dashboard_Previews.jpg)
 
 Capture Tab: Real-time packet parsing and metadata extraction.
+<img src="docs/Capture_Tab.jpg" width="80%">
 
-![Capture Tab](docs/Capture_Tab.jpg)
 
 Analysis Tab: Protocol distribution and Top Talker metrics.
-![Analysis Tab](docs/Analysis_Tab.jpg)
+<img src="docs/Analysis_Tab.jpg" width="80%">
+
 
 Detection Tab: Z-Score and SYN Flood alert logs.
-![Detection Tab](docs/Detection_Tab.jpg)
+<img src="docs/Detection_Tab.jpg" width="80%">
+
 
 🛡️ Scope & Limitations
 Supported Protocols: Deep header scanning for Ethernet (L2), IP (L3), and TCP/UDP/ICMP (L4).
