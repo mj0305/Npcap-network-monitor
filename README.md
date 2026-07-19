@@ -60,11 +60,9 @@ To detect sudden traffic spikes (e.g., DoS attacks or impromptu data exfiltratio
 ### 2. Heuristic SYN Flood Detection (Security Anomalies)
 For targeted security threats, the system filters TCP packets to monitor the ratio of connection requests (SYN) to connection acknowledgments (ACK). If a specific destination IP receives an abnormal volume of SYN flags (e.g., > 20) within a recent interval without corresponding ACKs, it triggers a high-severity SYN Flood alert, indicating a potential "half-open" connection attack.
 
-*(Anomaly Detection Logic Flowchart)*
-<br>
-![Flowchart](docs/flowchart.jpg)
-
 <img src="docs/flowchart.jpg" width="700">
+
+
 ## 🚀 Installation & Setup
 
 ### Prerequisites
