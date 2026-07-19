@@ -13,6 +13,28 @@ A lightweight, host-based network traffic monitoring system designed to bridge t
 
 This project was developed to provide a transparent, "glass-box" analytical tool tailored for educational and research environments, focusing on L2-L4 protocol analysis and real-time security auditing.
 
+Project Structure
+```bash
+Network-Traffic-Monitor/
+│
+├── data/                   # For storing captured JSON data
+├── docs/                   # For storing documentation and images (architecture diagrams, flowcharts)
+│   ├── architecture.jpg
+│   ├── flowchart.jpg
+│   └── ui_screenshot.jpg
+│
+├── analyzer.py             # Data analysis and transformation module
+├── desktop_app.py          # Main programme and PyQt5 GUI
+├── detector.py             # Z-Score and SYN Flood anomaly detection logic
+├── packet_capture.py       # Npcap/Scapy multi-threaded packet capture core
+├── visualizer.py           # Matplotlib real-time visualisation module
+│
+├── requirements.txt        # List of dependency packages
+├── .gitignore              # Files to be excluded from uploads (e.g. cache, packet capture data)
+└── README.md               # Core documentation for the project
+
+```
+
 ## ✨ Key Features
 * **Multi-threaded Capture Engine:** Decouples data acquisition from the GUI using a producer-consumer model, ensuring high-throughput capture without freezing the interface.
 * **Kernel-Level Visibility:** Utilizes the Npcap driver (NDIS 6 API) to intercept Ethernet, IP, TCP, UDP, and ICMP frames, including local loopback traffic.
