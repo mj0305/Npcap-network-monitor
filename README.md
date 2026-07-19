@@ -51,6 +51,20 @@ The application is strictly designed using a Modular Design Pattern, separated i
 
 ![System Architecture](docs/architecture.jpg)
 
+## ⚙️ System Workflow & Detection Logic
+The system processes network traffic through a structured pipeline, ensuring real-time performance while applying statistical and heuristic threat detection algorithms. 
+
+### 1. Z-Score Statistical Analysis (Volumetric Anomalies)
+To detect sudden traffic spikes (e.g., DoS attacks or impromptu data exfiltration), the system dynamically calculates the rolling mean and standard deviation of the incoming packet rate. Any traffic rate that deviates by more than 3 standard deviations ($|Z| > 3$) from the historical baseline is immediately flagged as a statistical anomaly. This allows the system to adapt to normal network variations without relying on rigid, hard-coded thresholds.
+
+### 2. Heuristic SYN Flood Detection (Security Anomalies)
+For targeted security threats, the system filters TCP packets to monitor the ratio of connection requests (SYN) to connection acknowledgments (ACK). If a specific destination IP receives an abnormal volume of SYN flags (e.g., > 20) within a recent interval without corresponding ACKs, it triggers a high-severity SYN Flood alert, indicating a potential "half-open" connection attack.
+
+*(Anomaly Detection Logic Flowchart)*
+<br>
+![Flowchart](docs/flowchart.jpg)
+
+<img src="docs/flowchart.jpg" width="700">
 ## 🚀 Installation & Setup
 
 ### Prerequisites
