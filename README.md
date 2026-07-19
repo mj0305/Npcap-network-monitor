@@ -75,9 +75,9 @@ python desktop_app.py
 
 ## 📊 Dashboard Previews
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/aaba3b06-ef5b-4898-8797-658e6c4976f2" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aaba3b06-ef5b-4898-8797-658e6c4976f2" />
 
-
+1920 × 1080
 
 ## Capture Tab: Real-time packet parsing and metadata extraction.
 
