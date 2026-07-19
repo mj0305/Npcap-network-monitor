@@ -75,22 +75,21 @@ python desktop_app.py
 
 ## 📊 Dashboard Previews
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aaba3b06-ef5b-4898-8797-658e6c4976f2" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/d2cd9d49-0b94-4acc-a03b-a04ba1eb10a2" />
 
-1920 × 1080
 
-## Capture Tab: Real-time packet parsing and metadata extraction.
+**Capture Tab: Real-time packet parsing and metadata extraction.**
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/fefba374-4481-4811-bdc3-242d270fb8ea" />
 
 
 
-## Analysis Tab: Protocol distribution and Top Talker metrics.
+**Analysis Tab: Protocol distribution and Top Talker metrics.**
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/49ccb263-4390-4bdc-a43e-457eb32aa862" />
 
 
-## Detection Tab: Z-Score and SYN Flood alert logs.
+**Detection Tab: Z-Score and SYN Flood alert logs.**
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/60e95fc1-0232-4348-9223-bf1410f7cd0c" />
 
