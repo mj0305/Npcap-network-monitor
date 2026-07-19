@@ -27,7 +27,6 @@ The application is strictly designed using a Modular Design Pattern, separated i
 2. **Processing Plane (Analysis):** Data structuring, vectorization via Pandas, and security heuristic execution via the `AnomalyDetector`.
 3. **Presentation Plane (Visualization):** The interactive PyQt5 dashboard managed by `TrafficVisualizer`.
 
-*(You can insert your Architecture Diagram here by replacing the path)*
 ![System Architecture](docs/architecture.jpg)
 
 ## 🚀 Installation & Setup
