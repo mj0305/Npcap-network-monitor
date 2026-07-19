@@ -74,19 +74,19 @@ python desktop_app.py
 
 
 📊 Dashboard Previews
-<img src="docs/Dashboard_Previews.jpg" width="80%">
+<img src="docs/Dashboard_Previews.jpg" width="800">
 
 
 Capture Tab: Real-time packet parsing and metadata extraction.
-<img src="docs/Capture_Tab.jpg" width="80%">
+<img src="docs/Capture_Tab.jpg" width="800">
 
 
 Analysis Tab: Protocol distribution and Top Talker metrics.
-<img src="docs/Analysis_Tab.jpg" width="80%">
+<img src="docs/Analysis_Tab.jpg" width="800">
 
 
 Detection Tab: Z-Score and SYN Flood alert logs.
-<img src="docs/Detection_Tab.jpg" width="80%">
+<img src="docs/Detection_Tab.jpg" width="800">
 
 
 🛡️ Scope & Limitations
