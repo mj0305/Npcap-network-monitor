@@ -42,3 +42,37 @@ The application is strictly designed using a Modular Design Pattern, separated i
    ```bash
    git clone [https://github.com/yourusername/Network-Traffic-Monitor.git](https://github.com/yourusername/Network-Traffic-Monitor.git)
    cd Network-Traffic-Monitor
+Install the required dependencies:
+
+Bash
+pip install -r requirements.txt
+Run the application (Administrator privileges may be required for promiscuous mode capture):
+
+Bash
+python desktop_app.py
+
+
+📊 Dashboard Previews
+<img width="669" height="327" alt="image" src="https://github.com/user-attachments/assets/a658291c-12c1-487c-baad-05f4608d2cc0" />
+
+Capture Tab: Real-time packet parsing and metadata extraction.
+<img width="865" height="601" alt="image" src="https://github.com/user-attachments/assets/6b2ccf43-4bab-46ca-a775-2a76c0888f4d" />
+
+Analysis Tab: Protocol distribution and Top Talker metrics.
+<img width="755" height="594" alt="image" src="https://github.com/user-attachments/assets/19f7be0c-a282-4e6e-b9cd-6d5b5fdbdcf0" />
+
+Detection Tab: Z-Score and SYN Flood alert logs.
+<img width="865" height="606" alt="image" src="https://github.com/user-attachments/assets/19629332-ca71-4df4-8d18-d0a5a8cfa072" />
+
+
+🛡️ Scope & Limitations
+Supported Protocols: Deep header scanning for Ethernet (L2), IP (L3), and TCP/UDP/ICMP (L4).
+
+Encryption: Payload decryption for SSL/TLS (HTTPS) is out of scope. Analysis on encrypted traffic relies strictly on flow metadata (IPs, ports, volume).
+
+Deployment: Designed as a host-based edge-node analyzer, not a distributed sensor network.
+
+👨‍💻 Author
+Tan Minjun
+
+Bachelor of Information Technology (Honours) Communications and Networking, UTAR.
